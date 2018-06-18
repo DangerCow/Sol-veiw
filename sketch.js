@@ -34,7 +34,7 @@ var s = 1;
 
 function PLanet(s,x,sp,r,g,b) {
 
-	this.an = random(0,360);
+	this.an = 0;
 	this.x = x;
 
 	this.P_set = function() {
